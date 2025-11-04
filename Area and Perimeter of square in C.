@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int area,p,r;
+scanf("%d",&r);
+area=r*r;
+p=4*r;
+printf("%d",area);
+printf("%d",p);
+return 0;}
