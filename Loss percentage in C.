@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int x,y;
+double loss;
+scanf("%d%d",&x,&y)
+loss=((double) (x-y))/x*100;
+printf("%.2f", loss);
+return 0;
+}
