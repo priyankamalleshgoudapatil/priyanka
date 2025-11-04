@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int year;
+scanf("%d",&year);
+int lastdigit = year % 100;
+printf("%02d",lastdigit);
+return 0;
+}
