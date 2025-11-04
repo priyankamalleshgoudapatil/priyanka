@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int length, breadth;
+scanf("%d %d", &length, &breadth);
+int area=(length*breadth)/2;
+printf("%d",area);
+return 0;
+}
