@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+int x,y,M;
+
+scanf("%d%d%d",&x,&y,&M);
+
+double P=pow(x,y);
+
+int result=(int)P%M;
+
+printf("%d", result);
+
+return 0;
+}
