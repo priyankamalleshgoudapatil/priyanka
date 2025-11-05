@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+int totalsecond;
+
+scanf("%d",&totalsecond);
+
+int hours=totalsecond/3600;
+
+int minutes (totalsecond%3600)/60;
+
+int second= (totalsecond%3600)%60;
+
+printf("H:M:S-%d:%d:%d",hours,minutes, second);
+
+return 0;
+}
