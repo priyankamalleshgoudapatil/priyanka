@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+
+int D;
+
+scanf("%d",&D);
+
+int year=D/365;
+
+int week=(D%365)/7;
+
+printf("%d%d", year,week);
+
+return 0;
+
+}
